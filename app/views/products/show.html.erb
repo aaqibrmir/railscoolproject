@@ -1,0 +1,12 @@
+<h1><%= @product.name %></h1>
+
+<p><strong>Description:</strong> <%= @product.description %></p>
+<p><strong>Price:</strong> $<%= @product.price %></p>
+<p><strong>Stock:</strong> <%= @product.stock_quantity %></p>
+<p><strong>Category ID:</strong> <%= @product.category_id %></p>
+
+<% if @product.image.attached? %>
+  <p><strong>Image:</strong><br>
+    <%= image_tag @product.image %>
+  </p>
+<% end %>
