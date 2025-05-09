@@ -32,3 +32,32 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+
+/log/*
+/tmp/*
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/assets
+.byebug_history
+.env
+node_modules/
+/storage/*
+/coverage/
+/vendor/bundle
+*.swp
+*.bak
+*.pid
+*.log
+Dockerfile
+docker-compose.yml
+
+
+
+
+
+
+
+
+
+
